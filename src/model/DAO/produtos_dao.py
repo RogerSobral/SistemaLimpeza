@@ -10,7 +10,7 @@ class Produtos_DAO:
             self.__conn.salve(data)
             return "Produto salvo com sucesso !"
         except Exception as e:
-            raise ValueError("Erro no momento de salvar produtos no banco de dados",e)
+            raise ValueError("Não foi possivel salvar o produto")
 
 
     def lerProdutos(self):

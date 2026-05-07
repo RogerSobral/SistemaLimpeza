@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nome": "arroz",
+        "marca": "joj",
+        "valor": "28"
+    },
+    {
+        "id": 2,
+        "nome": "feijão",
+        "marca": "josé",
+        "valor": "8"
+    },
+    {
+        "id": 3,
+        "nome": "teste",
+        "marca": "seila",
+        "valor": "5"
+    },
+    {
+        "id": 4,
+        "nome": "teste3",
+        "marca": "silva",
+        "valor": "10"
+    },
+    {
+        "id": 5,
+        "nome": "teste4",
+        "marca": "marca3",
+        "valor": "10"
+    },
+    {
+        "id": 6,
+        "nome": "teste4",
+        "marca": "marca5",
+        "valor": ""
+    }
+]
