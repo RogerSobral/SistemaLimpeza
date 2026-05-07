@@ -32,14 +32,3 @@ class Produtos_DAO:
         except IndexError as e :
             raise ValueError("Produto não existe no sistema: ")
 
-if __name__ == '__main__':
-    p1=Produtos_DAO()
-    # dado = {'id': 2, 'nome': 'Arroz', 'valor': 28, 'id_fornecedor': 1}
-    # m=p1.addProdutos(dado)
-    # print(m)
-
-    try:
-        print(p1.buscarPorID(12))
-
-    except Exception as e:
-        print(e)
